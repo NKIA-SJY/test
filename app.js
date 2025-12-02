@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 
 // 2. 누군가 사이트 주소로 들어오면 index.html을 보여줌
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'My_first_website/index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // 3. 서버 실행
